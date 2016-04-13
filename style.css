@@ -2,5 +2,73 @@ body{
     text-align: center;
     margin:0;
     padding:0;
-    background-color: yellow
+    font-family: "Apercu Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-family: "OTS derived font distante";
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    background-color: #FFDB00;
+}
+
+#menu {
+    height: 75px;
+    width: 100%;
+    background-color: white;
+}
+
+header {
+    background-color: white;
+}
+
+h2 {
+    font-family: "Apercu Bold";
+    font-size: 60px;
+    line-height: 40px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+p {
+    color: black;
+    font-size: 30px;
+}
+
+
+.hamburger{
+    display: block;
+    visibility: visible;
+    display: block;
+    height: 18px;
+    float: left;
+    width: 24px;
+    border: none;
+    margin: 28px 0 0 25px;
+    padding: 0;
+}
+
+
+ul {
+    list-style: none; /* enlever les puces */
+    margin: 0; /* enlever les marges automatiques */
+    font-family:Verdana;
+    float: right;
+    padding-top: 0px; 
+}
+
+li {
+    padding-right: 20px;
+}
+
+ul li {
+    display: table-cell;
+}
+
+footer{
+background:#262626;
+position:absolute;
+bottom:0;
+width:100%;
+padding-top:50px;
+height:100px;
 }

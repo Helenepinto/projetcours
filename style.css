@@ -72,3 +72,66 @@ width:100%;
 padding-top:50px;
 height:100px;
 }
+
+.About {
+    color: white;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: lighter;
+    list-style-type: none;
+    display: block;
+}
+
+.Team {
+    color:rgb(178, 178, 178);
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: lighter;
+    list-style-type: none;
+}
+
+.icones {
+    font-family: Helvetica;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    list-style-type: none;
+}
+
+p {
+    font-size:30px;
+    font-family: "Apercu Bold";
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 40px;
+    color: rgb(38, 38, 38);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#tableau ul {
+    width: 33%;
+    padding:0;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    
+#backtotable {
+    margin:auto;
+}
+
+#tableau {
+    width : 75%;
+    
+}
+#foot p {
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 21.42px;
+    text-align: center;
+}
+#foot {
+    height: 374px;
+    background-color: rgb(38, 38, 38);
+}

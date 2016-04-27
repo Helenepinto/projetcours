@@ -1,14 +1,43 @@
 body{
-    text-align: center;
-    margin:0;
+    
+    margin:0px;
     padding:0;
     font-family: "Apercu Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    font-family: "OTS derived font distante";
     font-style: normal;
     font-weight: normal;
     color: white;
     background-color: #FFDB00;
+}
+
+#linkhead ul li a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: Helvetica ;
+    font-weight: bolder;
+    
+}
+
+#login li div class{
+    background-color: black;
+}
+
+#linkhead {
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+#contenu {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#contenu img {
+    width: 300px;
+    height: auto;
 }
 
 #menu {
@@ -38,7 +67,6 @@ p {
 .hamburger{
     display: block;
     visibility: visible;
-    display: block;
     height: 18px;
     float: left;
     width: 24px;
@@ -50,9 +78,9 @@ p {
 
 ul {
     list-style: none; /* enlever les puces */
-    margin: 0; /* enlever les marges automatiques */
+
     font-family:Verdana;
-    float: right;
+
     padding-top: 0px; 
 }
 
@@ -63,6 +91,27 @@ li {
 ul li {
     display: table-cell;
 }
+
+
+.back {
+    color: white;
+    background-color: transparent;
+    border:none;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+    background:transparent url(images/back.svg) no-repeat 5px center;
+    
+    padding: 15px 6px 15px 60px;
+    
+    
+}
+
+
+
+
+
 
 footer{
 background:#262626;
